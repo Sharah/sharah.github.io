@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto Slab);
+body {
+    color: #555;
+    margin: 0;
+    font-family: 'Roboto Slab' Georgia, 'Times New Roman', Times, serif; 
+}
+#header {
+    background-color: #1abc9c;
+    height: 70px;
+    line-height: 70px;
+}
+#header a {
+    color: #696969;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1 em;
+}
+#header a:hover {
+    color: #f6e1dc;
+}
+#header-title {
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+#header-nav {
+    display: block;
+    float: right;
+    margin-top: 0;
+}
+#header-nav li {
+    display: inline;
+    padding-left: 10px;
+}
+
+#content {
+    background-color: #FFF5EE;
+    padding: 50px 20px 20px 20px;
+}
+#motivation {
+    background-color: #FFF5EE;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+a:hover {
+    color: #F6A623;
+}
+#footer {
+    background-color: #333;
+    padding: 10px 0;
+    clear: left;
+}
+#footer a {
+    color: #1abc9c;
+}
+#footer a:hover {
+    color: #f6e1dc;
+}
+.column {
+        min-width: 300px;
+        display: inline-block;
+        vertical-align: top;
+    }
+.column span {
+    color: gray;
+}
+#footer h4 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em; 
+}
+#footer h3 {
+    color: white;
+}
+#footer p {
+    color: gray;
+}
+        letter-spacing: 0.1em;
+}
+.post, {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.post-author img {
+width: 55px;
+height: 55px;
+border-radius: 50%;
+vertical-align: middle;
+}
+.post-author span {
+    color: #BC8F8F;
+    
+}
+.post-date {
+    color: #696969;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+h1, h2, h3, h4 {
+    color: #333;
+}
+p {
+    line-height: 1.5;
+}
+#quote {
+    margin: 0;
+}
+.quote-author img {
+    max-width: 1500px;
+    max-height: 500px;
+    margin: 0 auto;
+    display: block;
+}
+.quote-author span {
+    color: gray;
+    display: block;
+    text-align: center;
+    padding: 0px;
+}
+.about-author img {
+    max-width: 1500px;
+    max-height: 500px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.about {
+    text-align: center;
+}
